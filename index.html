@@ -10,6 +10,57 @@
     <!-- <div id="ali"></div>
     <div id="root2"></div> -->
   </body>
+  
+  <!-- DOM VIA JS id
+  <script>
+    const heading = document.createElement("h1");
+    heading.innerHTML = "Aslam o alikum via JS DOM";
+    const root = document.getElementById("root");
+    root.appendChild(heading);
+
+    const head = document.createElement("h2");
+    head.innerHTML = "My life is for WEB Engineering";
+    const asad = document.getElementById("asad");
+    asad.appendChild(head);
+
+    const h = document.createElement("h3");
+    h.innerHTML = "Its my 3rd approch to use DOM";
+    const ali = document.getElementById("ali");
+    ali.appendChild(h);
+  </script> -->
+  <!-- <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"
+  ></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ></script>
+  <script>
+    const heading = React.createElement(
+        "h1",
+         {id:"root"},
+          "Aslam o alikum via React and Passing 2nd Parameter"
+          ); 
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);
+
+    const heading1 = React.createElement(
+        "h1",
+         {id:"ali"},
+          "Aslam o alikum via React and Passing 2nd Parameter root1"
+          ); 
+    const ali = ReactDOM.createRoot(document.getElementById("ali"));
+    root.render(heading1);
+
+    const heading2 = React.createElement(
+        "h1",
+         {id:"root2"},
+          "Aslam o alikum via React and Passing 2nd Parameter root3"
+          ); 
+    const root2 = ReactDOM.createRoot(document.getElementById("root2"));
+    root.render(heading2);
+  </script> -->
   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
   <script>
